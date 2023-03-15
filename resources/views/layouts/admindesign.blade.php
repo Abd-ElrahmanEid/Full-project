@@ -10,6 +10,7 @@
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
 
+
     <title>Document</title>
 </head>
 <body style="background-image: url({{'/Images/f.png'}}); background-size: cover">

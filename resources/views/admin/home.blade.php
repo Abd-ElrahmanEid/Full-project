@@ -2,6 +2,13 @@
 
 @section('content')
 
-<h1 class="text-center">Admin dashboard design</h1>
+<div class="container alert alert-dark text-center fs-1" role="alert" style="height: 18vh; font-family: Georgia">
+    Admin dashboard design
+</div>
+
+    <br><br>
+
+
+
 
 @endsection

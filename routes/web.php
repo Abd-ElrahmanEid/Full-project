@@ -31,7 +31,7 @@ Route::get('/dashboard', function () {
         return redirect('admin');
     } else{
         return redirect()->route('showdata.index');
-    }})->middleware(['auth', 'verified'])->name('dashboard');
+    }})->middleware(['auth' , 'verified'])->name('dashboard');
 
 Route::get('cart', function (){
     return view('cart');

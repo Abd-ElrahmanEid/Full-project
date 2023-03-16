@@ -31,7 +31,9 @@ Route::get('/dashboard', function () {
         return redirect('admin');
     } else{
         return redirect()->route('showdata.index');
-    }})->middleware(['auth' , 'verified'])->name('dashboard');
+    }})->middleware(['auth'])->name('dashboard');
+
+
 
 Route::get('cart', function (){
     return view('cart');
@@ -67,7 +69,7 @@ Route::resource('adminproduct' , AdminProductController::class)->middleware('adm
 
 
 //show products in home page
-Route::resource('showdata', ViewProductController::class);
+Route::resource('showdata', ViewProductController::class)->middleware('verified');
 
 //admin show users
 Route::resource('adminuser' , ViewUserController::class);

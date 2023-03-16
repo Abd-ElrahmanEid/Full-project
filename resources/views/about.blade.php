@@ -109,6 +109,17 @@
 </section>
 
 
+<div class="container " style="height: 15vh; display: flex; justify-content: space-evenly; align-items: center" >
+
+    <i class="fa-brands fa-cc-visa" style="font-size: 70px"></i>
+    <i class="fa-brands fa-cc-mastercard" style="font-size: 70px"></i>
+    <i class="fa-brands fa-cc-paypal" style="font-size: 70px"></i>
+    <i class="fa-brands fa-cc-apple-pay" style="font-size: 70px"></i>
+    <i class="fa-brands fa-cc-amazon-pay" style="font-size: 70px"></i>
+
+</div>
+
+
 
 
 

@@ -76,7 +76,7 @@
 
 <!-- -----------------Products  ---------------------------------------------------------------------- -->
 
-<h2 style="font-family: Aleo;"><span>Shoping Cart</span></h2> <br><br>
+<h2 style="font-family: Aleo;"><span>Shopping Cart</span></h2> <br><br>
 
 @if(session()->has('success'))
     <div class="container alert alert-danger" role="alert">
@@ -116,7 +116,7 @@
 
                             <!-- remove -->
                             <a href="{{route('cart.remove' , $product['id'])}}" class="btn btn-danger">
-                                Remove
+                                <i class="fa-solid fa-trash"></i>
                             </a>
 
                         </div>
@@ -128,6 +128,18 @@
 
     </div>
 </section>
+
+
+
+<div class="container " style="height: 15vh; display: flex; justify-content: space-evenly; align-items: center" >
+
+        <i class="fa-brands fa-cc-visa" style="font-size: 70px"></i>
+        <i class="fa-brands fa-cc-mastercard" style="font-size: 70px"></i>
+        <i class="fa-brands fa-cc-paypal" style="font-size: 70px"></i>
+        <i class="fa-brands fa-cc-apple-pay" style="font-size: 70px"></i>
+        <i class="fa-brands fa-cc-amazon-pay" style="font-size: 70px"></i>
+
+</div>
 
 
 

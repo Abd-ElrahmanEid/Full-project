@@ -297,7 +297,7 @@
                                         </a>
 
                                     <a href="{{route('cart.add' , $product->id)}}" style="border: 1px solid grey; padding: 10px 15px; border-radius: 50px; font-size: 20px; background-color: transparent; color: black;">
-                                        <i class="fa-solid fa-cart-shopping" onMouseOver="this.style.color='DarkTurquoise'" onMouseOut="this.style.color='black'">
+                                        <i class="fa-solid fa-cart-shopping" onMouseOver="this.style.color='HotPink	'" onMouseOut="this.style.color='black'">
                                         </i>
                                     </a>
                                 </div>
